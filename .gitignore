@@ -4,3 +4,4 @@ obj/
 bin/
 bootstrap-3.3.7-dist/
 Images/
+node_modules/
