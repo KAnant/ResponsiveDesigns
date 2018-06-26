@@ -1,0 +1,73 @@
+﻿
+.navbar-header {
+    background-color: mintcream;
+    width: 100%;
+}
+
+.navbar {
+    background-color: mintcream;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.topnav a {
+    display: flex;
+    float: left;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+#table1 {
+    border: 1px;
+}
+
+table thead tr {
+    border-bottom: 1px solid #000;
+}
+
+th {
+    text-align: center;
+}
+
+.pagination {
+}
+
+table td {
+    border-top: thin solid;
+    border-bottom: thin solid;
+    height: 50px;
+}
+/*table td:first-child {
+border-left: thin solid;
+}
+
+table td:last-child {
+border-right: thin solid;
+}*/
+img {
+    float: right;
+}
+
+th {
+    height: 50px;
+    background-color: #f2f2f2;
+}
+
+a {
+    font-size: 20px;
+}
+
+.form-control {
+    width: 150px;
+}
+
+@media screen and (max-width: 500px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+}

@@ -1,0 +1,50 @@
+﻿li {
+    margin-right: 10px;
+    float: right;
+    font-size: 20px;
+}
+
+.navbar li {
+    margin-right: 50px;
+    float: left;
+}
+
+.navbar {
+    background-color: white;
+}
+
+
+li a {
+    float: left;
+    color: grey;
+}
+
+.container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-header {
+    width: 100%;
+    padding: 5px;
+}
+
+.nav navbar-nav {
+    width: 100%;
+}
+
+#Image1 {
+    height: 600px;
+}
+
+#Image2 {
+    height: 600px;
+}
+
+#Image3 {
+    height: 600px;
+}
+
+#logo {
+    height: 40px;
+}

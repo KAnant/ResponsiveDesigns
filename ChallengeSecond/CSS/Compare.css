@@ -1,0 +1,106 @@
+﻿.row [class*='col-'] {
+    text-align: center;
+    background-color: #f1ebeb;
+    background-clip: content-box;
+    /*height: 50%;*/
+    margin-bottom: 15px;
+    display: block;
+    
+}
+
+.navbar {
+    background-color: black;
+    height: 80px;
+}
+
+.navbar-header {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.container-fluid {
+    height: 50px;
+}
+
+.topnav {
+    width: 100%;
+    height: 70px;
+}
+
+ .topnav a {
+        display: flex;
+        float: left;
+        color: white;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        position: relative;
+    }
+
+.col-12 {
+    height: 200px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+img {
+    display: inline-block;
+    padding: 10px;
+    /*height: 40%;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*#img1 {
+height:20px;
+width:20px;
+}
+#img2 {
+height:20px;
+width:20px;
+}*/
+
+ul {
+    text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+    .row [class*='col-'] {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a {
+        float: right;
+        display: flex;
+        position: relative;
+    }
+}
+
+/*@media(max-width:500) {
+    img .col-xs-6col-md-4 {
+        display: inline-block;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+    }
+}*/
